@@ -1,0 +1,13 @@
+server:
+  port: 8081
+#spring:
+#  elasticsearch:
+#    rest:
+#      uris: localhost:9200
+elasticsearch:
+  host: localhost
+  port: 9200
+  connectNum: 10
+  connectPerRoute: 50
+
+
